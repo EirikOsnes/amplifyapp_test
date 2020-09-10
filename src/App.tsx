@@ -4,6 +4,8 @@ import './App.css';
 import NavBar from './components/NavBar';
 import RadarPlot from './components/RadarPlot';
 import Form from './components/Form';
+import {withAuthenticator, AmplifySignOut} from '@aws-amplify/ui-react'
+
 let radar_data = require('./radar-data.json');
 
 function App() {
@@ -29,9 +31,10 @@ function App() {
         </div>
         
       </header>
+      <AmplifySignOut/>
       <Form></Form>
     </div>
   );
 }
 
-export default App;
+export default withAuthenticator(App);

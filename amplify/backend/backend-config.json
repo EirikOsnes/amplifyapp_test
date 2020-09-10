@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "mytypescripttestapp2b6a158e": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
