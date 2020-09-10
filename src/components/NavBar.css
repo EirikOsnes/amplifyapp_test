@@ -1,0 +1,8 @@
+.NavBar {
+    background-color: grey;
+}
+
+.NavBar h1 {
+    margin: 0;
+    padding: 1em 0;
+}
